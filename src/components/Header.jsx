@@ -3,7 +3,7 @@ import lan from "../assets/images/language.svg"
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <div className="bg-transparent">
+    <div>
       <div className="absolute top-0 left-0 w-full flex justify-between px-40 py-6 
       bg-transparent z-10">
         <div>
