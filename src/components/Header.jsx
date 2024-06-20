@@ -17,12 +17,12 @@ const Header = () => {
             <div className="z-30 flex items-center align-middle"><img src={lan} width={20} alt="language"/></div>
             <select className="bg-black h-full w-full select-text focus-visible:outline-none  
             focus:border-none border-none bg-transparent leading-tight">
-              <option selected  value='English' className="w-36 h-full bg-black visited:bg-gray-300 focus-visible:outline-none p-2 border-0">English</option>
+              <option value='English' className="w-36 h-full bg-black visited:bg-gray-300 focus-visible:outline-none p-2 border-0">English</option>
               <option value='Persian' className="w-36 h-full bg-black visited:bg-gray-300 focus-visible:outline-none p-2 border-0">Persian</option>
             </select> 
           </div>
-          <Link className="flex items-center align-middle bg-red ml-8 hover:bg-red-100 text-white py-0 px-4 rounded-md 
-          h-8 cursor-pointer" to='/SignUp'>
+          <Link className="flex items-center align-middle bg-red ml-8 hover:bg-red-100 
+          text-white py-0 px-4 rounded-md h-8 cursor-pointer" to='/SignUp'>
           Sign In
           </Link>
         </div>

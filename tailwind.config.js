@@ -12,6 +12,8 @@ module.exports = {
       backgroundColor: {
         'red': 'rgb(229, 9, 20)',
         'red-100': 'rgb(193,17,25)',
+        'black-700': 'rgba(0,0,0,.4)',
+        'gray-700': 'rgba(255, 255, 255, .7)',
       },
       outlineColor: {
         'gray': 'rgba(255, 255, 255, .4)',
