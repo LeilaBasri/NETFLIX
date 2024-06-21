@@ -15,8 +15,14 @@ module.exports = {
         'black-700': 'rgba(0,0,0,.4)',
         'gray-700': 'rgba(255, 255, 255, .7)',
       },
+      backgroundImage: {
+        'custom-radial': 'radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%)',
+      },
       outlineColor: {
         'gray': 'rgba(255, 255, 255, .4)',
+      },
+      boxShadow: {
+        'custom': '0px -8px 25px rgba(0, 0, 0, 0.5)',
       },
     },
   },
