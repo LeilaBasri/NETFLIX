@@ -14,6 +14,7 @@ module.exports = {
         'red-100': 'rgb(193,17,25)',
         'black-700': 'rgba(0,0,0,.4)',
         'gray-700': 'rgba(255, 255, 255, .7)',
+        'wb': 'rgb(35, 35, 35)',
       },
       backgroundImage: {
         'custom-radial': 'radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%)',
